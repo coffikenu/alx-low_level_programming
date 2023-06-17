@@ -26,6 +26,6 @@ if (i == 8)
 putchar('\n');
 }
 i++;
-} 
+}
 return (0);
 }

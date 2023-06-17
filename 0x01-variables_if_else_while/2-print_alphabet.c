@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
  * main - Entry point
  *
@@ -8,11 +7,11 @@
 int main(void)
 {
 char alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
- int i = 0;
- while(i<26)
+int i=0;
+while(i<26)
 {
 putchar(alphabet[i]);
-if (i == 25)
+if(i==25)
 {
 putchar('\n');
 }

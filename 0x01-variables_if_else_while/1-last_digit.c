@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <string.h>
 #include <stdlib.h>
 #include <time.h>
 /**
@@ -7,27 +7,30 @@
  *
  * Return: Always 0 (Success)
  */
-
 /* more headers goes there */
-
 /* betty style doc for function main goes there */
 int main(void)
 {
 int n;
+char s[50] = "";
+char st;
+int num;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-/* your code goes there */
-if ( n > 5)
+sprintf(s, "%d" ,n);
+st = s[strlen(s)-1];
+sscanf(&st, "%d", &num);
+if ( n > 0 && num > 5)
 {
-printf("is %d and is greater than 5\n", n);
+printf("last digit of  %d is %d and is greater than 5\n",  n,num);
 }
-else if ( n < 6 && n !=0 )
+else if ( num != 0 && n < 6 && n < 6)
 {
-printf("is %d and is less than 6 and not 0\n", n);
+printf("last digit of  %d is %d and is less than 6 and not 0\n", n,num);
 }
-else
+else if (num == 0)
 {
-printf("is %d is 0\n", n);
+printf("last digit of  %d is %d is 0\n", n,num);
 }
 return (0);
 }

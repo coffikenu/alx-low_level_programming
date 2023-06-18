@@ -17,20 +17,20 @@ char st;
 int num;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-sprintf(s, "%d" ,n);
-st = s[strlen(s)-1];
-sscanf(&st, "%d", &num);
+sprintf(s , "%d" , n);
+st = s[strlen(s) - 1];
+sscanf( &st , "%d" , &num);
 if ( n > 0 && num > 5)
 {
-printf("Last digit of %d is %d and is greater than 5\n",  n,num);
+printf("Last digit of %d is %d and is greater than 5\n",  n, num);
 }
 else if ( num != 0 && n < 6 && n < 6)
 {
-printf("Last digit of %d is -%d and is less than 6 and not 0\n", n,num);
+printf("Last digit of %d is -%d and is less than 6 and not 0\n", n, num);
 }
 else if (num == 0)
 {
-printf("Last digit of %d is %d and is 0\n", n,num);
+printf("Last digit of %d is %d and is 0\n", n, num);
 }
 return (0);
 }

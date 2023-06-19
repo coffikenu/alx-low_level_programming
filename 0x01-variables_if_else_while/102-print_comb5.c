@@ -11,31 +11,6 @@ while (i < 100)
 int j = i+1;
 while (j < 100)
 {
-if(i < 10 && j < 10 )
-{
-putchar(0 + '0');
-putchar(i + '0');
-
-putchar(' ');
-
-putchar(0 + '0');
-putchar(j + '0');
-putchar(',');
-putchar(' ');
-
-}
-else if( i < 10 && j > 10 )
-{
-putchar(0 + '0');
-putchar(i + '0');
-putchar(' ');
-putchar((j/10) + '0');
-putchar((j%10) + '0');
-putchar(',');
-putchar(' ');
-}
-else
-{
 putchar((i/10) + '0');
 putchar((i%10) + '0');
 putchar(' ');
@@ -45,7 +20,6 @@ if (i < 98)
 {
 putchar(',');
 putchar(' ');
-}
 }
 j++;
 }

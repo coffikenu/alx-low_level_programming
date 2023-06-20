@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 
-int _putchar()
+int main()
 {
 putchar('_');
 putchar('p');
@@ -12,10 +12,5 @@ putchar('h');
 putchar('a');
 putchar('r');
 putchar('\n');
-return (0);
-}
-int main()
-{
-_putchar();
 return (0);
 }

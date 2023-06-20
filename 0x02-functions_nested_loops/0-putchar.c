@@ -1,7 +1,11 @@
 #include <stdio.h>
 #include "main.h"
-
-int main()
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+int main(void)
 {
 putchar('_');
 putchar('p');

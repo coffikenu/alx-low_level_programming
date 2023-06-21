@@ -1,12 +1,9 @@
 #include <stdio.h>
 #include <ctype.h>
 /**
- * 'c' - check the code
- *
- * return: always 0.
- */
-/**
 * _islower - check the code.
+*
+* 'c' - check the code 
 *
 * Return: Always 0.
 */

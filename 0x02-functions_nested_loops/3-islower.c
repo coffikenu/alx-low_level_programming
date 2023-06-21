@@ -3,7 +3,7 @@
 /**
 * _islower - check the code.
 *
-* 'c' - check the code 
+* ctype - check the code 
 *
 * Return: Always 0.
 */

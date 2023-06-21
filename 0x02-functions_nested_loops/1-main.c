@@ -1,0 +1,15 @@
+#include <stdio.h>
+void print_alphabet(void)
+{
+char alpha[26] = "abcdefghijklmnopqrstuvwxyz" ;
+int i = 0;
+while (i<26)
+{
+putchar(alpha[i]);
+if (i == 25)
+{
+putchar('\n');
+}
+i++;
+}
+}

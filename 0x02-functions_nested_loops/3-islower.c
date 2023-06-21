@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <ctype.h>
 /**
- *_islower : is lower
- *return = it return
+ * _islower - check the code.
+ *
+ * Return: Always 0.
  */
 int _islower(int c)
 {

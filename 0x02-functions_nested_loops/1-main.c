@@ -1,15 +1,12 @@
-#include <stdio.h>
-void print_alphabet(void)
+#include "main.h"
+
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+int main(void)
 {
-char alpha[26] = "abcdefghijklmnopqrstuvwxyz" ;
-int i = 0;
-while (i<26)
-{
-putchar(alpha[i]);
-if (i == 25)
-{
-putchar('\n');
-}
-i++;
-}
+    print_alphabet();
+    return (0);
 }

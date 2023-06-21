@@ -5,8 +5,17 @@
  *
  * Return: Always 0.
  */
-int main(void)
+void print_alphabet(void)
 {
-  print_alphabet();
-  return (0);
+char alpha[26] = "abcdefghijklmnopqrstuvwxyz" ;
+int i = 0;
+while (i<26)
+{
+putchar(alpha[i]);
+if (i == 25)
+{
+putchar('\n');
+}
+i++;
+}
 }

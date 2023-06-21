@@ -2,7 +2,7 @@
 #include <ctype.h>
 /**
  *
- *'c' - check the code
+ * 'c' - check the code
  *
  */
 /**

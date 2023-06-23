@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include "main.h"
+int i = 0 ;
+int b;
+int _isdigit(int c)
+  char num[10] = "0123456789";
+{
+for (i = 0 ; i < 10 ; i++)
+{
+if (num[i] == c)
+{
+b = 1;
+break;
+}
+else
+{
+b = 0;
+}
+}
+return (b);
+}

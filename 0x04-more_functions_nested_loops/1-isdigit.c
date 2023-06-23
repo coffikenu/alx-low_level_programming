@@ -3,7 +3,7 @@
 
 /**
  * _isdigit - check the code
- *@c: first parametr
+ *
  * Return: Always 0.
  */
 int i = 0 ;

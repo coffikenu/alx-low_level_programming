@@ -3,7 +3,7 @@
 
 /**
  * main - check the code.
- *@c - is a parametr
+ *@c: first parametr
  * Return: Always 0.
  */
 int main(void)

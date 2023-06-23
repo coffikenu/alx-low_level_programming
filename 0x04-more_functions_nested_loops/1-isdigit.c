@@ -1,5 +1,11 @@
 #include <stdio.h>
 #include "main.h"
+
+/**
+ * _isdigit - check the code
+ *@c: first parametr
+ * Return: Always 0.
+ */
 int i = 0 ;
 int b;
 char num1[10] = "0123456789";

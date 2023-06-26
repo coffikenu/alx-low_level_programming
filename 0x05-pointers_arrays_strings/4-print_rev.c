@@ -12,9 +12,6 @@ int i;
 for (i = strlen(s) - 1; i >= 0; i--)
 {
 putchar(s[i]);
-if  (i == 0)
-{
+}
 putchar('\n');
-}
-}
 }

@@ -18,7 +18,7 @@ putchar(str[i]);
 }
 else if ((b - 1) % 2 != 0)
 {
-if(i > (b - 1) / 2 || i == b - 1)
+if (i > (b - 1) / 2 || i == b - 1)
 {
 putchar(str[i]);
 }

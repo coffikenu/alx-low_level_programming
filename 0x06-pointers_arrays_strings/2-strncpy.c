@@ -2,7 +2,7 @@
 #include <string.h>
 /**
  * _strncpy - check the code
- * @dest: first parametr 
+ * @dest: first parametr
  * @src: second parametr
  * @n: third parametr
  * Return: Always 0.

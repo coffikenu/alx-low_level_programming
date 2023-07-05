@@ -8,16 +8,14 @@
  */
 void _print_rev_recursion(char *s)
 {
-int j;
-for (j = strlen(s); j >= 1; j--)
-{
+int j = strlen(s);
 if (j > 1)
 {
 printf("%c", s[j]);
+_print_rev_recirsion(s);
 }
 else if (j == 1)
 {
 printf("%c%c", s[j], s[j - 1]);
-}
 }
 }

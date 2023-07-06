@@ -6,13 +6,16 @@
  * @s: parametr
  * Return: Always 0.
  */
+int i = 1;
 void _print_rev_recursion(char *s)
 {
-int j = strlen(s);
+int j = strlen(s) - i;
 if (j > 1)
 {
 printf("%c", s[j]);
-_print_rev_recirsion(s);
+i++;
+_print_rev_recursion(s);
+
 }
 else if (j == 1)
 {

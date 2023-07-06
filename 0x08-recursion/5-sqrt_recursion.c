@@ -7,7 +7,7 @@
  */
 int _sqrt_recursion(int n)
 {
-return squre(n, 1);
+return (squre(n, 1));
 }
 /**
  * squre - check the code
@@ -28,6 +28,6 @@ return (i);
 }
 else
 {
-return squre(n, i + 1);
+return (squre(n, i + 1));
 }
 }

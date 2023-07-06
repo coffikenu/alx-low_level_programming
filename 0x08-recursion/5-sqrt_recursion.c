@@ -1,7 +1,7 @@
 #include "main.h"
 #include <math.h>
 /**
- * int _sqrt_recursion - check the code
+ * _sqrt_recursion - check the code
  * @n: is a parametr
  * Return: Always 0.
  */
@@ -10,7 +10,7 @@ int _sqrt_recursion(int n)
 return squre(n, 1);
 }
 /**
- * int squre - check the code
+ * squre - check the code
  * @n: is a parametr
  * @i: is second parametr
  * Return: Always return 0

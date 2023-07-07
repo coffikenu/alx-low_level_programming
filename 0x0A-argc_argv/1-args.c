@@ -2,7 +2,7 @@
 #include <string.h>
 int main(int argc, char *argv[])
 {
-
-printf("%d\\%s\n", argc - 1, argv[0]);
+(void)argv;
+printf("%d\n", argc - 1);
 return (0);
 }

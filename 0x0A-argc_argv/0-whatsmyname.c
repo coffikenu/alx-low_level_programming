@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - is main method
+ * main - This is main method
  * @argc: is parametr
  * @argv: is second parametr
  * Return - Always return 0

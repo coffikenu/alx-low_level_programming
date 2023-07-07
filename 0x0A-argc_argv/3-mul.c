@@ -1,6 +1,12 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+/**
+ *main - print the multiple of two argument
+ *@argc: first parametr
+ *@argv: second parametr
+ *Return: always zero
+ */
 int main(int argc, char *argv[])
 {
 int m;

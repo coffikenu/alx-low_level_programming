@@ -1,4 +1,4 @@
- #include "main.h"
+#include "main.h"
 #include <string.h>
 #include <stdlib.h>
 /**
@@ -18,14 +18,14 @@ if (s1 == NULL && s2 == NULL)
 {
 return (NULL);
 }
-else if(s1 == NULL && s2 != NULL)
+else if (s1 == NULL && s2 != NULL)
 {
 for (i = 0; i < d; i++)
 {
 b[i] = s2[i];
 }
 }
-else if(s2 == NULL && s1 != NULL)
+else if (s2 == NULL && s1 != NULL)
 {
 for (i = 0; i < j; i++)
 {

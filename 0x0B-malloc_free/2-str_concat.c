@@ -20,12 +20,20 @@ return (NULL);
 }
 else if(s1 == NULL && s2 != NULL)
 {
-d = 0;
+for (i = 0; i < d; i++)
+{
+b[i] = s1[i];
+}
 }
 else if(s2 == NULL && s1 != NULL)
 {
-j = 0;
+for (i = 0; i < j; i++)
+{
+b[i] = s2[i];
 }
+}
+if (s1 != NULL && s2 != NULL)
+{
 for (i = 0; i < (d + j); i++)
 {
 if (i >= d)
@@ -36,6 +44,7 @@ s++;
 else
 {
 b[i] = s1[i];
+}
 }
 }
 return (b);

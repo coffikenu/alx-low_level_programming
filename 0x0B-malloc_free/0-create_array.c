@@ -9,14 +9,20 @@
  */
 char *create_array(unsigned int size, char c)
 {
-char *p;
-if (size <= 0)
+char *array;
+unsigned int i;
+if (size == 0)
 {
-p = NULL;
+return (NULL);
 }
-else if (size > 0)
+array = malloc(sizeof(char) * size);
+if (array == NULL)
 {
-p = (char*)malloc(sizeof(c) * size); 
+return (NULL);
 }
-return (p);
+for (i = 0; i < size; i++){
+array[i] = c;
 }
+return (array);
+}
+

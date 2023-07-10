@@ -22,14 +22,14 @@ else if(s1 == NULL && s2 != NULL)
 {
 for (i = 0; i < d; i++)
 {
-b[i] = s1[i];
+b[i] = s2[i];
 }
 }
 else if(s2 == NULL && s1 != NULL)
 {
 for (i = 0; i < j; i++)
 {
-b[i] = s2[i];
+b[i] = s1[i];
 }
 }
 if (s1 != NULL && s2 != NULL)

@@ -1,4 +1,4 @@
-#include "main.h"
+ #include "main.h"
 #include <string.h>
 #include <stdlib.h>
 /**
@@ -17,6 +17,14 @@ char *b = malloc(d + j + 1);
 if (s1 == NULL && s2 == NULL)
 {
 return (NULL);
+}
+else if(s1 == NULL && s2 != NULL)
+{
+d = 0;
+}
+else if(s2 == NULL && s1 != NULL)
+{
+j = 0;
 }
 for (i = 0; i < (d + j); i++)
 {

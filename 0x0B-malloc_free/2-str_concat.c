@@ -14,7 +14,7 @@ int s = 0;
 int d = strlen(s1);
 int j = strlen(s2);
 char *b = malloc(d + j);
-if (s1 == NULL || s2 == NULL)
+if (s1 == NULL && s2 == NULL)
 {
 return (NULL);
 }

@@ -20,7 +20,8 @@ if (array == NULL)
 {
 return (NULL);
 }
-for (i = 0; i < size; i++){
+for (i = 0; i < size; i++)
+{
 array[i] = c;
 }
 return (array);

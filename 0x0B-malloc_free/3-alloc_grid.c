@@ -14,14 +14,19 @@ if (width <= 0 && height <= 0)
 {
 return (NULL);
 }
-if (width > 0 && height > 0)
-{
 array = (int **)malloc(height * sizeof(int *));
 for (i = 0; i < height; i++)
 {
 array[i] = (int *)malloc(width * sizeof(int));
 }
+if (width > 0 && height > 0)
+{
 return (array);
 }
+for (i = 0; i < height; i++)
+{
+  free(array[i]);
+}
+free(array);
 return (NULL);
 }

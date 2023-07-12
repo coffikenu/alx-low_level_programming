@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * alloc_grid - check the code for ALX School students.
- * @widht: lol
+ * @width: lol
  * @height: lost
  * Return: Always 0.
  */
@@ -14,10 +14,14 @@ if (width <= 0 && height <= 0)
 {
 return (NULL);
 }
-array = malloc(height * sizeof(int *));
+if (width > 0 && height > 0)
+{
+array = (int **)malloc(height * sizeof(int *));
 for (i = 0; i < height; i++)
 {
-array[i] = malloc(width * sizeof(int));
+array[i] = (int *)malloc(width * sizeof(int));
 }
 return (array);
+}
+return (NULL);
 }

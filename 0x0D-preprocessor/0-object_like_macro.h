@@ -1,4 +1,4 @@
 /**
- * SIZE - size of this
+ * @SIZE: size of this
  */
 #define SIZE 1024

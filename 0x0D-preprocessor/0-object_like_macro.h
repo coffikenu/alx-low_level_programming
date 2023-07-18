@@ -1,4 +1,3 @@
-#include <stdio.h>
 /**
  * SIZE - size of this
  */

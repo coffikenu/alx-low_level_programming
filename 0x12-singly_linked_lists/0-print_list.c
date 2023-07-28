@@ -22,7 +22,7 @@ if (tmp->str == NULL)
 printf("[0] (nil)\n");
 }
 else {
-printf("%s\n", tmp->str);
+printf("[5] %s\n", tmp->str);
 }
 tmp = tmp->next;
 }
